@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <!-- name -> same, label for = id -->
+        <h1>Travel form for our trip</h1>
+
+        <!-- INPUT -->
+        <form action="form.php">
+            <input type="text" name="" id="" placeholder="Enter your name">
+            <br>
+            <hr>
+            <label for="collegename">Enter you college name</label>
+            <input type="text" name="College" id="college name" placeholder="eg: IIT BOMBAY">
+            <br>
+            <hr>
+
+            <label for="sectionida">
+                <input type="radio" name="Section" id="sectionida" value="section A"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" name="Section" id="sectionidb" value="section B"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" name="Section" id="sectionidc" value="section C" class="red blue"> Section C
+            </label>
+
+            <br>
+            <hr>
+            <input type="checkbox" id="foodcanteen" class="red" name="canteen">
+            <label for="foodcanteen">Want canteen food ?</label>
+            <br>
+            <hr>
+            <input type="file">
+            <br>
+            <hr>
+            <input type="date">
+            <br>
+            <hr>
+            <input type="range">
+            <br>
+            <hr>
+
+            <!-- TEXTAREA -->
+            <textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="Explain why you want to join"></textarea>
+            <br>
+            <hr>
+
+            <!-- SELECT -->
+            <select name="vehicle" id="car">
+                <option value="no-car">Select your vehicle</option>
+                <option value="Omni">Omni</option>
+                <option value="BMW">BMW</option>
+                <option value="Swift">Swift</option>
+            </select>
+            <button>Enter</button>
+        </form>
+    </div>
+</body>
+
+</html>

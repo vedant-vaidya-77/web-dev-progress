@@ -1,0 +1,30 @@
+body{
+    font-size: 19px;
+}
+
+p{
+    color: purple;
+}
+
+h1, h2{
+    color: red;
+}
+
+/* class */
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+.meow{
+    color: gray;
+}
+
+/* ids */
+#second { 
+    font-style: italic;
+}
+
+/* universal selector */
+*{
+    font-family: monospace;
+}
